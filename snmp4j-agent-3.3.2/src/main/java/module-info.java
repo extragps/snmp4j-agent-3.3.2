@@ -1,4 +1,4 @@
-module org.snmp4j.agent {
+module snmp4j.agent {
 	exports org.snmp4j.agent.io;
 	exports org.snmp4j.agent.mo.ext;
 	exports org.snmp4j.agent.mo.snmp4j.example;
@@ -22,5 +22,5 @@ module org.snmp4j.agent {
 	exports org.snmp4j.agent.request;
 
 	requires java.desktop;
-	requires org.snmp4j;
+	requires snmp4j;
 }
